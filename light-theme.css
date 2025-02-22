@@ -1,0 +1,91 @@
+/* Light Theme */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+  }
+ 
+body.light {
+    background: linear-gradient(to right, #f9f9f9, #e0e0e0, #d1d1d1);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+
+  
+  /* Header */
+.light header {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navigation */
+.light .nav-link {
+    color: black;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .light .nav-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form Containers */
+  .light .form-container {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  /* Inputs & Buttons */
+  .light input,
+  .light textarea {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .light input:focus,
+  .light textarea:focus {
+    border: 2px solid #007BFF;
+  }
+  
+  .light .btn {
+    background: linear-gradient(to right, #46d0ec, #08bfd7,#03ecf8);
+  }
+  
+  .light .btn:hover {
+    background: linear-gradient(to right, #37ded3, #20f3f7);
+  }
+  
+  /* Social Icons */
+  .light .social-icon {
+    border: 2px solid black;
+  }
+  
+  .light .social-icon:hover {
+    background: black;
+    color: white;
+  }
+  
+  /* Auction Items */
+  .light li {
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  /* Footer */
+  .light footer {
+    background: rgba(0, 0, 0, 0.1);
+    color:black;
+  }
+  .light .content {
+    background-color:none;
+    color: black;
+  }
+  
